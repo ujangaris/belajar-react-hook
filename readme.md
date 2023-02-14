@@ -51,3 +51,19 @@
         - klik button count pada Class Counter, nilai count akan bertambah 1 ketika di klik
         - jika semua featur diatas berjalan maka setup yang kita lakukan berhasil.
 
+## useState with object
+
+    Todo :
+    1.  component/HookCounterThree.jsx
+        - buat functional component HookCounterThree
+        - buat hook state yang didalamnya object
+        - buat sebuah form yang didalamnya ada dua buah form input
+        - pasang method onChange yang menjalankan setName
+        - Menampilkan teks yang berisi nilai dari state "firstName" & "lastname"
+        - Menampilkan nilai dari state "name" dalam bentuk string JSON.
+    2.  App.jsx
+        import dan panggil HookCounterTree
+    3.  pengujian pada browser
+        - isi form firstname & lastname
+          jika data pada browser tampil sesuai yang di input maka setup yang kita lakukan berhasil
+          Your first name is ... , Your last name is...
