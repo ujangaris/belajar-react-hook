@@ -171,3 +171,23 @@
         - gerakan mouse , jika setup yang kita lakukan berhasil maka nilai kordinat akan berubah2
         - liat juga pada console,
         - klik button toggle display, jika cotent menghilang maka setup yang kita lakukan berhasil
+
+## useEffect with correct dependency
+
+    Todo :
+    1.  component/IntervalClassCounter.jsx
+        - constructor
+        - buat componentDidMount
+        - buat componentWillUnmount
+        - buat function tick
+        - mencetak nilai count
+    2.  component/IntervalHookCounter.jsx
+        - deklarasikan hook
+        - deklarasikan fungsi tick
+        - buat useEffect
+        - cetak count
+    3.  App.js
+        - import dan panggil IntervalClassCounter
+        - import dan panggil IntervalHookCounter
+    4.  pengujian pada browser
+        - buka browser dan lihat ada nilai yang bertambah setiap 1detik
