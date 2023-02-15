@@ -149,3 +149,25 @@
     4.  pengujian pada browser
         - gerakan mouse , jika setup yang kita lakukan berhasil maka nilai kordinat akan berubah2
         - liat juga pada console,
+
+## useEffect with cleanup
+
+    Todo :
+    1.  component/MouseContainer.jsx
+        - deklarasi hook
+        - button setDisplay  dengan kondisi
+        - panggil dan import HookMouse
+    2.  App.js
+        - import dan panggil MouseContainer
+    3.  component/HookMouse.jsx
+        - component will mount
+    4.  component/ClassMouse.jsx
+        - component will mount
+          component will mount sama seperti yang kita lakukan diatas
+        - function logMousePosition
+        - use effect
+        - tampilkan korn=dinat mose
+    5.  pengujian pada browser
+        - gerakan mouse , jika setup yang kita lakukan berhasil maka nilai kordinat akan berubah2
+        - liat juga pada console,
+        - klik button toggle display, jika cotent menghilang maka setup yang kita lakukan berhasil
