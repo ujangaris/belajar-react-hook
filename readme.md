@@ -129,3 +129,23 @@
           jika ada angka bertambah 1 ketika button di klik,
           dan pada title nilai cunter bertambah 1 maka setup yang kita lakukan berhasil.
         - pada form tulis sesuatu inputan , dan liat pada console
+
+## Run effects only once
+
+    Todo :
+    1.  component/ClassMouse.jsx
+        - constructor
+        - function logMousePosition
+        - componentDidMount
+        - tampilkan korn=dinat mose
+    2.  component/HookMouse.jsx
+        - buat deklarasi hook
+        - function logMousePosition
+        - use effect
+        - tampilkan korn=dinat mose
+    3.  App.js
+        - import dan panggil ClassMouse
+        - import dan panggil HookMouse
+    4.  pengujian pada browser
+        - gerakan mouse , jika setup yang kita lakukan berhasil maka nilai kordinat akan berubah2
+        - liat juga pada console,
