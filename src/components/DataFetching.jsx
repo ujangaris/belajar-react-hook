@@ -31,20 +31,42 @@ function DataFetching() {
       })
   }, [idFromButtonClick])
   return (
-    <div>
-      {/* pasang setId didalam onChange pada input text */}
-      <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
-      {/* pasang functioin handleClick pada button onClick */}
-      <button type="button" onClick={handleClick}>
-        Fetch Post
-      </button>
-      <h1>{post.title}</h1>
-      {/* tampilkan data dalam bentuk un order list dengan map */}
-      {/* <ul>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8 mx-auto">
+          {/* pasang setId didalam onChange pada input text */}
+          <div className="form-group">
+            <label for="exampleInputEmail1" className="mb-2">
+              <h1>Masukan ID</h1>
+            </label>
+
+            <input
+              style={{ width: "400px" }}
+              className="form-control"
+              type="number"
+              value={id}
+              onChange={(e) => setId(e.target.value)}
+            />
+          </div>
+          {/* pasang functioin handleClick pada button onClick */}
+          <form>
+            <button
+              className="btn btn-primary mt-5"
+              type="button"
+              onClick={handleClick}
+            >
+              Fetch Post
+            </button>
+          </form>
+          <h2>{post.title}</h2>
+          {/* tampilkan data dalam bentuk un order list dengan map */}
+          {/* <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
         ))}
       </ul> */}
+        </div>
+      </div>
     </div>
   )
 }

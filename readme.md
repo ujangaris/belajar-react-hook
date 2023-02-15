@@ -231,3 +231,15 @@
     2.  pengujian pada browser :
         - akan ada data yang tampil yakni data title, masukan nilai 1d pada form
           kemudian klik button Fetch Post, jika title berubah sesuai id yang kita masukan maka setup yang kita lakukan berhasil
+
+## install bootstrap
+
+    Todo :
+
+    1.  install bootstrap
+        - npm install react-bootstrap bootstrap
+    2.  App.js
+        - import bootstrap: import 'bootstrap/dist/css/bootstrap.min.css';
+    3.  App.css
+        - pasang background-image
+        - simpan file image didalam folder src/assets/image/doodles.webp
