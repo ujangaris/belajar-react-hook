@@ -6,11 +6,20 @@ function DataFetching() {
   const [post, setPost] = useState({})
   // deklarasi hook untuk id
   const [id, setId] = useState(1)
+  //   deklarasi id untuk button klik
+  const [idFromButtonClick, setIdFromButtonClick] = useState(1)
+
+  //   buat function handleClick
+  const handleClick = () => {
+    setIdFromButtonClick(id)
+  }
+
   //   useEffect
   useEffect(() => {
     // panggil link api dari json placeholder
+    // pada bagian id, ganti dengan hook state idFromButtonClick
     axios
-      .get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+      .get(`https://jsonplaceholder.typicode.com/posts/${idFromButtonClick}`)
       //   handle response success
       .then((res) => {
         console.log(res)
@@ -20,11 +29,15 @@ function DataFetching() {
       .catch((err) => {
         console.log(er)
       })
-  }, [id])
+  }, [idFromButtonClick])
   return (
     <div>
       {/* pasang setId didalam onChange pada input text */}
       <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
+      {/* pasang functioin handleClick pada button onClick */}
+      <button type="button" onClick={handleClick}>
+        Fetch Post
+      </button>
       <h1>{post.title}</h1>
       {/* tampilkan data dalam bentuk un order list dengan map */}
       {/* <ul>

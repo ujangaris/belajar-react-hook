@@ -218,3 +218,16 @@
         - tampilkan data dalam bentuk heading
     2.  pengujian pada browser :
         - akan ada data yang tampil yakni data title, masukan nilai 1d pada form
+
+## fetching data with useEffect Part 3
+
+    Todo :
+
+    1. components/DataFetching.js
+        - buat deklarasi id untuk button klik
+        - buat function handleClick
+        - pada bagian id, ganti dengan hook state idFromButtonClick
+        - pasang functioin handleClick pada button onClick
+    2.  pengujian pada browser :
+        - akan ada data yang tampil yakni data title, masukan nilai 1d pada form
+          kemudian klik button Fetch Post, jika title berubah sesuai id yang kita masukan maka setup yang kita lakukan berhasil
