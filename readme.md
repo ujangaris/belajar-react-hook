@@ -191,3 +191,18 @@
         - import dan panggil IntervalHookCounter
     4.  pengujian pada browser
         - buka browser dan lihat ada nilai yang bertambah setiap 1detik
+
+## fetching data with useEffect Part 1
+
+    Todo :
+    1.  install axios
+        - npm install axios
+    2. components/DataFetching.js
+        - buat functional component DataFetching
+        - buat deklarasi hook
+        - buat useEffect yang didalamnya kita panggil api dari json place holder dengan get
+        - tampilkan data dalam bentuk un order list dengan map
+    3.  App.js
+        - import dan panggil DataFetching
+    4.  pengujian pada browser :
+        - akan ada data yang tampil yakni data title, liat juga pada console
