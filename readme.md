@@ -108,3 +108,24 @@
         - klik button click pada functional counter one,
           jika ada angka bertambah 1 ketika button di klik,
           dan pada title nilai cunter bertambah 1 maka setup yang kita lakukan berhasil.
+
+## conditionally run effects
+
+    Todo :
+    1.  component/ClassCounterOne.jsx
+        - buat kondisi untuk handle form input name
+        - pasang onChange pada inputan
+    2.  component/HookCounterOne.jsx
+        - buat deklarasi hook name dan count
+        - use effect
+        - pasang onChange pada inputan
+    3.  pengujian pada browser
+        - klik button click pada class counter one,
+          jika ada angka bertambah 1 ketika button di klik,
+          dan pada title nilai cunter bertambah 1 maka setup yang kita lakukan berhasil.
+        - pada form tulis sesuatu inputan , dan liat pada console
+
+        - klik button click pada functional counter one,
+          jika ada angka bertambah 1 ketika button di klik,
+          dan pada title nilai cunter bertambah 1 maka setup yang kita lakukan berhasil.
+        - pada form tulis sesuatu inputan , dan liat pada console
