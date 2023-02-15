@@ -67,3 +67,18 @@
         - isi form firstname & lastname
           jika data pada browser tampil sesuai yang di input maka setup yang kita lakukan berhasil
           Your first name is ... , Your last name is...
+
+## useState with array
+
+    Todo :
+    1.  component/HookCounterFour.jsx
+        - buat functional component HookCounterFour
+        - buat hook state yang didalamnya array kosong
+        - buat sebuah function addItem
+        - panggilfunction addItem di dalam buton onClick
+        - buat setiap elemen list item (li) sesuai dengan data yang ada pada array.
+    2.  App.jsx
+        import dan panggil HookCounterFour
+    3.  pengujian pada browser
+        - klik button Add a number, jika ada angka rundom yang tambil ketika button di klik,
+          maka setup yang kita lakukan berhasil.
