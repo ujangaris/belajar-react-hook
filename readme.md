@@ -82,3 +82,29 @@
     3.  pengujian pada browser
         - klik button Add a number, jika ada angka rundom yang tambil ketika button di klik,
           maka setup yang kita lakukan berhasil.
+
+## useEffect after render
+
+    Todo :
+    1.  component/ClassCounterOne.jsx
+        - buat class component ClassCounterOne
+        - buat constructor
+        - buat component did mount
+        - buat component did update
+        - panggil setState pada button onClick
+    2.  component/HookCounterOne.jsx
+        - buat functional component HookCounterOne
+        - deklarasi hook
+        - use effect
+        - pasang setCount pada button onClick
+    3.  App.jsx
+        import dan panggil ClassCounterOne
+        import dan panggil HookCounterOne
+    4.  pengujian pada browser
+        - klik button click pada class counter one,
+          jika ada angka bertambah 1 ketika button di klik,
+          dan pada title nilai cunter bertambah 1 maka setup yang kita lakukan berhasil.
+
+        - klik button click pada functional counter one,
+          jika ada angka bertambah 1 ketika button di klik,
+          dan pada title nilai cunter bertambah 1 maka setup yang kita lakukan berhasil.
