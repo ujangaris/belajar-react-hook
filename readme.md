@@ -206,3 +206,15 @@
         - import dan panggil DataFetching
     4.  pengujian pada browser :
         - akan ada data yang tampil yakni data title, liat juga pada console
+
+## fetching data with useEffect Part 2
+
+    Todo :
+
+    1. components/DataFetching.js
+        - buat deklarasi hook untuk id
+        - edit useEffect yang didalamnya kita panggil api dari json place holder dengan get berdasarkan id
+        - pasang setId didalam onChange pada input text
+        - tampilkan data dalam bentuk heading
+    2.  pengujian pada browser :
+        - akan ada data yang tampil yakni data title, masukan nilai 1d pada form
